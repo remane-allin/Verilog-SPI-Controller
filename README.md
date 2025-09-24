@@ -10,9 +10,10 @@
 
 * **`spi_master.v`**: SPI 主机模块，负责生成时钟（SCLK）、控制片选（CS）并启动数据传输。
 * **`spi_slave.v`**: SPI 从机模块，负责接收主机命令并响应数据。
+* **`tb_spi_phy_loopback.v`**: 仿真代码，包含对 Master 写、Master 读和全双工的验证。
 
 **主要特性:**
-* 支持 Mode 0 (CPOL=0, CPHA=0)。
+*  Mode 0 (CPOL=0, CPHA=0)。
 
 ## 📁 文件说明
 
@@ -20,6 +21,7 @@
 | :--- | :--- |
 | `spi_master.v` | SPI 协议的主机（Master）端逻辑实现。 |
 | `spi_slave.v` | SPI 协议的从机（Slave）端逻辑实现。 |
+| `tb_spi_phy_loopback.v` | SPI 仿真。 |
 | `README.md` | 本文件。 |
 
 ## 💻 如何使用
