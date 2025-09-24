@@ -28,6 +28,8 @@
 
 需要添加 `spi_master` 、 `spi_slave` 模块 `tb` 即可。
 
+## 💻 博客链接
+https://blog.csdn.net/guogaia/article/details/152015473?spm=1001.2014.3001.5501
 
 ## 📜 许可证 (License)
 
