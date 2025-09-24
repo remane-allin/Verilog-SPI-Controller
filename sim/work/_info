@@ -1,0 +1,169 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/FPGA_Demo/HI3593/spi_phy/sim
+T_opt
+!s110 1758710948
+VJ:Hfj@3LDKRk3E>jNI?@L2
+04 19 4 work tb_spi_phy_loopback fast 0
+=1-70b5e8732fd9-68d3cca4-1fe-54a8
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4;61
+T_opt1
+!s110 1758704767
+VzK2hSlUnCV`1bTahj>aAT1
+04 14 4 work tb_slave_debug fast 0
+=1-70b5e8732fd9-68d3b47f-109-28f8
+R1
+n@_opt1
+R2
+R0
+T_opt2
+!s110 1758704938
+VgXUCzfi[O;cAdFE8?hZQn2
+04 16 4 work tb_spi_phy_final fast 0
+=1-70b5e8732fd9-68d3b52a-52-e5a0
+R1
+n@_opt2
+R2
+R0
+vspi_master
+Z3 !s110 1758710941
+!i10b 1
+!s100 bHm39gACXA@hHHBb;o:PS2
+II:jOaa7>bVPmeh4JH3eB91
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1758703904
+8../rtl/spi_master.v
+F../rtl/spi_master.v
+L0 88
+Z5 OL;L;10.4;61
+r1
+!s85 0
+31
+Z6 !s108 1758710941.198000
+Z7 !s107 ../tb/tb_spi_phy_loopback.v|../rtl/spi_slave.v|../rtl/spi_master.v|
+Z8 !s90 ../rtl/spi_master.v|../rtl/spi_slave.v|../tb/tb_spi_phy_loopback.v|
+!i113 0
+vspi_slave
+R3
+!i10b 1
+!s100 icIe@1UW<3CVW@L3eFY>M0
+Igkg[6_@4g7L7EfA9f`g<82
+R4
+R0
+w1758703591
+8../rtl/spi_slave.v
+F../rtl/spi_slave.v
+L0 89
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+vtb_slave_debug
+!s110 1758704758
+!i10b 1
+!s100 ljeFnXzek:FS_TSO:5OUG1
+I<R0=6mM?iWm2nXoBh0XZa2
+R4
+R0
+w1758704745
+8../tb/tb_slave_debug.v
+F../tb/tb_slave_debug.v
+L0 8
+R5
+r1
+!s85 0
+31
+!s108 1758704758.099000
+!s107 ../tb/tb_slave_debug.v|
+!s90 ../tb/tb_slave_debug.v|
+!i113 0
+vtb_spi_master_simple
+!s110 1758703962
+!i10b 1
+!s100 MaBIllaR751?MfSOAKJLN2
+IWD`JYhb[HNEW89iofKiRg1
+R4
+R0
+w1758703952
+8../tb/tb_spi_master_simple.v
+F../tb/tb_spi_master_simple.v
+L0 8
+R5
+r1
+!s85 0
+31
+!s108 1758703962.079000
+!s107 ../tb/tb_spi_master_simple.v|
+!s90 ../tb/tb_spi_master_simple.v|
+!i113 0
+vtb_spi_phy_final
+!s110 1758704929
+!i10b 1
+!s100 m5?22IfWL=@3ZCTdGHG3b1
+I2>MFoXGRU:YB43_`O0ifU0
+R4
+R0
+w1758704921
+8../tb/tb_spi_phy_final.v
+F../tb/tb_spi_phy_final.v
+L0 8
+R5
+r1
+!s85 0
+31
+!s108 1758704929.470000
+!s107 ../tb/tb_spi_phy_final.v|
+!s90 ../tb/tb_spi_phy_final.v|
+!i113 0
+vtb_spi_phy_loopback
+R3
+!i10b 1
+!s100 _cP=`fd>IKE>CfCO;VlUL2
+I3elE__C?ALgI3lSdcF<TT1
+R4
+R0
+w1758710174
+8../tb/tb_spi_phy_loopback.v
+F../tb/tb_spi_phy_loopback.v
+L0 20
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+vtb_spi_phy_simple
+!s110 1758704260
+!i10b 1
+!s100 @EGGQ=h8hCQE6a6VBQz]a1
+IDT0L<ChihiZ4RN=BDMF5?3
+R4
+R0
+w1758704246
+8../tb/tb_spi_phy_simple.v
+F../tb/tb_spi_phy_simple.v
+L0 8
+R5
+r1
+!s85 0
+31
+!s108 1758704260.370000
+!s107 ../tb/tb_spi_phy_simple.v|
+!s90 ../tb/tb_spi_phy_simple.v|
+!i113 0

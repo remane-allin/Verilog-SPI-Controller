@@ -1,0 +1,31 @@
+$date
+	Wed Sep 24 18:49:09 2025
+$end
+$version
+	ModelSim Version 10.4
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_spi_phy_loopback $end
+
+$scope task test_master_write_slave_read $end
+$upscope $end
+
+$scope task test_master_read_slave_write $end
+
+$scope begin WAIT_CS_LOW_T2 $end
+$upscope $end
+$upscope $end
+
+$scope task test_full_duplex_transfer $end
+
+$scope begin WAIT_CS_LOW_T3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+$end
