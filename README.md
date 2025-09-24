@@ -26,9 +26,8 @@
 
 ## 💻 如何使用
 
-要将此 IP 模块集成到您的设计中，您只需要例化 `spi_master` 和 `spi_slave` 模块，并连接您的顶层信号。
+需要添加 `spi_master` 、 `spi_slave` 模块 `tb` 即可。
 
-**[这里可以添加一个简单的 Verilog 例化代码片段]**
 
 ## 📜 许可证 (License)
 
